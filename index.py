@@ -8,6 +8,7 @@ from app import server
 from app import app
 # import all pages in the app
 from apps import task123, Europe, home
+server = app.server
 
 # building the navigation bar
 # https://github.com/facultyai/dash-bootstrap-components/blob/master/examples/advanced-component-usage/Navbars.py
